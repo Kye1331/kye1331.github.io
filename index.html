@@ -204,7 +204,7 @@
         alert("Failed to fetch data.");
     }
 }
-      let mode = "popup"
+      let mode = "plopup"
       
         function openUrl(url) {
             if(url.length == 2 || url.length == 3){
@@ -212,7 +212,7 @@
                 return
             }
           if (!url.startsWith("https://") && !url.startsWith("http://")) {
-                url = "https://" + url;
+                url = window.location +"/"+ url;
             }
             
             if (mode == "popup"){
@@ -270,7 +270,7 @@
 </head>
     <h1>Sigma Games</h1>
     <div class="buttons">
-        <button class="button-17" onclick="openUrl('hahagames.com')">Hahagames</button>
+        <button class="button-17" onclick="openUrl('tboi')">Binding of isaac</button>
         <button class="button-17" onclick="openUrl('gointerstellar.app')">Interstellar Proxy</button>
         <button class="button-17" onclick="openUrl('kodub.com/apps/polytrack')">Polytrack</button>
         <button class="button-17" onclick="openUrl('retrogames.cc')">Retrogames</button>
@@ -278,10 +278,9 @@
     <br>
     <div class="buttons">
         <button class="button-17" onclick="openUrl('retrogames.cc/embed/19495-metroid-fusion-j-polla.html')">Metroid Fusion</button>
-        <button class="button-17" onclick="openUrl('romsgames.net')">Romsgames, download and play at EmulatorJS</button>
+        <button class="button-17" onclick="openUrl('romsgames.net')" Roms, download and play at EmulatorJS</button>
         <button class="button-17" onclick="openUrl('demo.emulatorjs.org')">Emulator Js (download from romsgames.net)</button>
-        <button class="button-17" onclick="openUrl('resent4-0.vercel.app/')">Eaglercraft (Resent 4.0)</button>
-        <button class="button-17" onclick="openUrl('crazygames.com/embed/doors-online')">Doors</button>
+        <button class="button-17" onclick="openUrl('eaglercraft')">Eaglercraft</button>
     </div>
     <div style="display: flex; justify-content: center; position: relative;">
       <div style="position: relative;">
@@ -309,5 +308,3 @@
     <script src="index.js"></script>
 </body>
 </html>
-
-
