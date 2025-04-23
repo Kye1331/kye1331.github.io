@@ -1,0 +1,54 @@
+.interface {
+  pointer-events: none;
+  z-index: 1;
+  position: absolute;
+  margin: 1em;
+  color: #fff;
+}
+
+.logo {
+  width: min(300px, 25vw);
+  transform: rotate(-5deg);
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0.5em;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.spins-section {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 1em;
+}
+
+.spins-number {
+  font-size: min(130px, 11vw);
+  text-shadow: min(7px, 1vw) min(7px, 1vw) 0px #6913c5;
+  width: 400px;
+}
+
+.coins-section {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1em;
+}
+
+.coins-number {
+  font-size: min(130px, 11vw);
+  width: 400px;
+  text-align: right;
+  text-shadow: min(7px, 1vw) min(7px, 1vw) 0px #6913c5;
+}
+
+.coins-image {
+  margin-top: 1vw;
+  margin-left: 2vw;
+  width: min(130px, 11vw);
+}

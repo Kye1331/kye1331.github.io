@@ -1,0 +1,769 @@
+body {
+    background-color: #191919 !important
+}
+.container, .statstab, b, input {
+    font-family:'Inconsolata', monospace !important
+}
+#ghostlyNewsTicker b, #ghostifyanitext b {
+    font-family:'Typewriter' !important
+}
+#container div {
+    color: #e5e5e5
+}
+#container button, .popup button {
+    font-family:'Inconsolata', monospace !important;
+    background-color: transparent;
+    color: #e5e5e5;
+    border-color: #0072e5;
+    border-radius: 0px !important
+}
+#container button:hover {
+    background-color: #0072e5;
+    color: #191919;
+}
+.achievementlocked {
+    background-color: #727272 !important;
+    border-color: #720000 !important;
+    border-radius: 0px !important
+}
+.achievementunlocked {
+    background-color: #00e500 !important;
+    border-color: #007200 !important;
+    border-radius: 0px !important
+}
+.completedrow {
+    background-color: #007200 !important
+}
+.achievementhidden {
+    background-color: #727272 !important;
+    border-color: #191919 !important;
+    border-radius: 0px !important
+}
+#progress {
+    bottom: 5px !important;
+    background-color: transparent !important;
+    border-radius: 0px !important
+}
+#progressbar {
+    background-color: #00e500 !important;
+    border-radius: 0px !important
+}
+#progresspercent {
+    font-family:'Inconsolata', monospace !important;
+    color: #191919 !important;
+    border-radius: 0px !important
+}
+#footer {
+    font-family: 'Inconsolata', monospace !important
+}
+#coinAmount, .antimatter {
+    color: #0072e5 !important
+}
+.storebtn, .completedchallengesbtn, .pc4completed {
+    border-color: #00e500 !important;
+    background-color: transparent !important;
+    color: #e5e5e5 !important;
+    border-radius: 0px !important
+}
+.storebtn:hover {
+    background-color: #00e500 !important;
+    color: #191919 !important
+}
+.unavailablebtn, .infinistorebtnlocked, .newdimlocked, .milestonerewardlocked, .galStonerewardlocked, .qMs_locked, .eternityupbtnlocked, .eternityttbtnlocked, .lockedchallengesbtn, .dilationupglocked, .dilationupgrebuyablelocked, .nfRewardlocked, .gluonupgradebought.bigripoff {
+    border-color: #e50000 !important;
+    color: #e5e5e5 !important
+}
+.unavailablebtn:hover, .infinistorebtnlocked:hover, .newdimlocked:hover, .infinistorebtnbought:hover, .onchallengebtn:hover, .completedchallengesbtn:hover, .milestonerewardlocked:hover, .galStonerewardlocked:hover, .qMs_locked:hover, .milestonereward:hover, .galStonereward, .eternityupbtnlocked:hover, .eternityttbtnlocked:hover, .eternitychallengestudylocked:hover, .lockedchallengesbtn:hover, .dilationupglocked:hover, .dilationupgbought:hover, .dilationupgrebuyablelocked:hover, .dilationupgrebuyablebought:hover, .upgbought:hover, .nfRewardlocked:hover, .gluonupgradebought.bigripoff:hover {
+    background-color: transparent !important;
+    color: #e5e5e5 !important
+}
+.popup {
+    font-family:'Inconsolata', monospace !important;
+	background-color: #191919;
+	color: #e5e5e5;
+	border: 2px solid #0072e5;
+	border-radius: 0px
+}
+strong { color: #0072e5 }
+.floatingText {
+    color: #00e500 !important
+}
+#pSac, #paradoxbtn, #pdtabbtn button {
+	background: radial-gradient(#720072, #e500e5);
+	border-color: #e500e5 !important;
+	color: #e572e5 !important;
+	text-shadow: 0px 0px 3px #191919, 0px 0px 6px #e500e5;
+}
+#pSac:hover, #paradoxbtn:hover, #pdtabbtn button:hover {
+	box-shadow: inset 0px 0px 12px 0px #e500e5;
+	color: #e572e5 !important;
+	text-shadow: 0px 0px 6px #191919, 0px 0px 6px #e500e5;
+}
+.pxAmount, #pPow, #pPowEffect {
+	color: #e500e5 !important
+}
+.pupg {
+	background: #720072 !important;
+	border-color: #e500e5 !important;
+	color: #e572e5 !important;
+	text-shadow: 0px 0px 3px #000000, 0px 0px 6px #e500e5
+}
+.pupg:hover {
+	text-shadow: 0px 0px 6px #000000, 0px 0px 6px #e500e5
+}
+.pubought {
+	background: #e500e5 !important;
+	border-color: #e500e5 !important;
+	color: #e5e5e5 !important;
+	text-shadow: 0px 0px 6px #000000, 0px 0px 6px #e500e5
+}
+#galaxybtn, #galaxy .infinistorebtn1, #galaxy .infinistorebtn2, #galaxy .infinistorebtn3, #sacrificebtn {
+    border-color: #2d5be5 !important
+}
+#galaxybtn:hover, #galaxy .infinistorebtn1:hover, #galaxy .infinistorebtn2:hover, #galaxy .infinistorebtn3:hover, #sacrificebtn:hover {
+    background-color: #2d5be5 !important
+}
+#galaxyPoints {
+    color: #e5e5e5 !important
+}
+.GPAmount {
+    color: #2d5be5 !important
+}
+#vanillaGalaxyPoints { display: none }
+.challengediv {
+    background-color: transparent !important;
+    font-family:'Inconsolata', monospace !important;
+    border-color: #0072e5 !important;
+    border-radius: 0px !important
+}
+.challengesbtn {
+    border-color: #009900 !important
+}
+.challengesbtn:hover {
+    background-color: #009900 !important
+}
+.onchallengebtn {
+    background-color: transparent;
+    color: #e5e5e5 !important;
+    border-color: #e5e500 !important
+}
+#infinityPoints1 {
+    color: #e5e5e5 !important
+}
+#vanillaInfinityPoints { display: none }
+#bigcrunch, #infinitybtn, #pastinfs, #postInfinityButton, #idtabbtn button, .newdim, #infinitydimensions td:nth-child(4) .storebtn, #repMajorBtn, #replicantichance.storebtn, #replicantiinterval.storebtn, #replicantimax.storebtn, #challTabButtons td:nth-child(2) button, #infchallengesbtn, .respecbtn, #pastcompressors {
+    border-color: #e2bd00 !important
+}
+#bigcrunch:hover, #infinitybtn:hover, #pastinfs:hover, #postInfinityButton:hover, #idtabbtn button:hover, .newdim:hover, #infinitydimensions td:nth-child(4) .storebtn:hover, #repMajorBtn:hover, #replicantichance.storebtn:hover, #replicantiinterval.storebtn:hover, #replicantimax.storebtn:hover, #challTabButtons td:nth-child(2) button:hover, #infchallengesbtn:hover, .respecbtn:hover, #pastcompressors:hover {
+    background-color: #e2bd00 !important
+}
+.IPAmount1, .IPAmount2, #infPowAmount, #infDimMultAmount, #infDimEffectPower,
+#replicantiamount, #replicantimult, #replCond, #replCond1, #replCond2,
+#replCompress, #replCompressEff, #replDilater, #replDilaterEff, #qc5_eng, #qc5_eff, #fd_eff_rep {
+    color: #e2bd00 !important
+}
+.infinistorebtn1, .infinistorebtn3 {
+    border-color: #e2bd00 !important
+}
+.infinistorebtn2, .infinistorebtn4 {
+    border-color: #ccaa00 !important
+}
+.infinistorebtn1:hover, .infinistorebtn3:hover {
+    background-color: #e2bd00 !important
+}
+.infinistorebtn2:hover, .infinistorebtn4:hover {
+    background-color: #ccaa00 !important
+}
+.infinistorebtnbought, .dilationupgbought, .dilationupgrebuyablebought, .upgbought {
+    border-color: #00e500 !important
+}
+.autoBuyerDiv {
+    border-color: #727272;
+    border-radius: 0px
+}
+#singularitytabbtn, #singularityunlock.storebtn, #sacrificeIP.storebtn, #blackHoleTabbtn button, #blackholeunlock.storebtn, #blackholediv table .storebtn, #replicantstabbtn button, #replicantReset.storebtn, #edtabbtn button { border: 2px solid #333333 !important }
+#singularitytabbtn:hover, #singularityunlock.storebtn:hover, #sacrificeIP.storebtn:hover, #blackHoleTabbtn button:hover, #blackholeunlock.storebtn:hover, #blackholediv table .storebtn:hover, #replicantstabbtn button:hover, #replicantReset.storebtn:hover, #edtabbtn button:hover { background-color: #333333 !important }
+#singularityPower, #darkMatter, #darkMatterPerSecond, #darkMatterDT, #nextDiscounts, #darkMatterMult, #blackholePowAmount, #DilMultAmount, #InfAndReplMultAmount, #replicantAmount, #workerReplAmount, #babyReplAmount, #workerProgress, #hatchProgress, #growupProgress, #replicantAmountED, #normalReplicantsNanofield, .dmAmount { 
+	color: #333333 !important;
+	text-shadow: 0px 0px 3px #333333, 0px 0px 4.5px #e5e5e5
+}
+.infchallengediv {
+    background-color: transparent !important;
+    font-family:'Inconsolata', monospace !important;
+    border-color: #e2bd00 !important;
+    border-radius: 0px !important
+}
+#eternitybtn, #eternitystorebtn, #pasteternities, #tdtabbtn button, #timedimensions td:nth-child(4) .storebtn, .eternityupbtn, .milestonereward, .timestudy, .eternityttbtn, #eterctabbtn, #breakEternityTabbtn button, #autoEternityTabbtn button {
+    border-color: #7100e2 !important;
+    animation: none
+}
+#eternitybtn:hover, #eternitystorebtn:hover, #pasteternities:hover, #tdtabbtn button:hover, #timedimensions td:nth-child(4) .storebtn:hover, .timestudy:hover, .eternityttbtn:hover, #eterctabbtn:hover, #breakEternityTabbtn button:hover, #autoEternityTabbtn button:hover {
+    background-color: #7100e2 !important
+}
+#TTbuttons {
+    font-family:'Inconsolata', monospace !important
+}
+#theorembuybackground {
+    background-color: #e5e5e5 !important;
+    border-color: #191919 !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important
+}
+#TTbuttons button {
+    font-family:'Inconsolata', monospace !important;
+    border-radius: 0px
+}
+#timestudies #footer, #masterystudies #footer {
+    display:block;
+    visibility:hidden
+}
+.timetheorembtnlocked {
+    background-color: #191919 !important;
+    color: #e5e5e5 !important;
+    border-color: #e50000 !important
+}
+.timetheorembtn {
+    background-color: #191919 !important;
+    color: #e5e5e5 !important;
+    border-color: #7100e2 !important
+}
+.timetheorembtn:hover {
+    background-color: #7100e2 !important;
+    color: #191919 !important
+}
+.EPAmount2, #timeShardAmount, #tickThreshold, #eternalMatter {
+    color: #7100e2 !important
+}
+.timestudylocked, .timestudylocked:hover, .timestudy, .eternitychallengestudylocked, .eternitychallengestudylocked:hover, .eternitychallengestudy {
+    background-color: #191919 !important;
+    color: #e5e5e5 !important
+}
+.timestudylocked, .eternitychallengestudylocked {
+    border-color: #e50000 !important
+}
+.timestudybought, .eternityupbtnbought, .eternitychallengestudybought {
+    background-color: #7100e2 !important;
+    color: #191919 !important;
+    border-color: #191919 !important
+}
+.timestudy.normaldimstudy {
+    background-color: transparent !important;
+    color: #e5e5e5 !important;
+    border-color: #0072e5 !important;
+    animation: none
+}
+.timestudy.normaldimstudy:hover, .timestudybought.normaldimstudy {
+    background-color: #0072e5 !important;
+    color: #191919 !important;
+}
+.timestudy.infdimstudy {
+    background-color: transparent !important;
+    color: #e5e5e5 !important;
+    border-color: #e2bd00 !important;
+    animation: none
+}
+.timestudy.infdimstudy:hover, .timestudybought.infdimstudy {
+    background-color: #e2bd00 !important;
+    color: #191919 !important;
+}
+.timestudy.timedimstudy {
+    background-color: transparent !important;
+    color: #e5e5e5 !important;
+    border-color: #7100e2 !important;
+    animation: none
+}
+.timestudy.timedimstudy:hover, .timestudybought.timedimstudy {
+    background-color: #7100e2 !important;
+    color: #191919 !important;
+}
+.timestudy.activestudy {
+    background-color: transparent !important;
+    color: #e5e5e5 !important;
+    border-color: #990000 !important;
+    animation: none
+}
+.timestudy.activestudy:hover, .timestudybought.activestudy {
+    background-color: #990000 !important;
+    color: #191919 !important;
+}
+.timestudy.passivestudy {
+    background-color: transparent !important;
+    color: #e5e5e5 !important;
+    border-color: #7200e5 !important;
+    animation: none
+}
+.timestudy.passivestudy:hover, .timestudybought.passivestudy {
+    background-color: #7200e5 !important;
+    color: #191919 !important;
+}
+.timestudy.idlestudy {
+    background-color: transparent !important;
+    color: #e5e5e5 !important;
+    border-color: #0072e5 !important;
+    animation: none
+}
+.timestudy.idlestudy:hover, .timestudybought.idlestudy {
+    background-color: #0072e5 !important;
+    color: #191919 !important;
+}
+.eternitychallengestudy {
+    border-color: #724c99 !important;
+    animation: none
+}
+.eternitychallengestudy:hover, .eternitychallengestudybought {
+    background-color: #724c99 !important;
+    color: #191919 !important
+}
+.eterchallengediv {
+    background-color: transparent !important;
+    font-family:'Inconsolata', monospace !important;
+    border-color: #7100e2 !important;
+    border-radius: 0px !important
+}
+.timestudy.darkstudy {
+    background-color: transparent !important;
+    color: #e5e5e5 !important;
+    border-color: #4c0099 !important;
+    animation: none
+}
+.timestudy.darkstudy:hover {
+    background-color: #4c0099 !important;
+    color: #191919 !important;
+    border-color: #4c0099 !important
+}
+.timestudybought.darkstudy {
+    background-color: #4c0099 !important;
+    color: #191919 !important;
+    border-color: #191919 !important
+}
+.timestudy.lightstudy {
+    background-color: transparent !important;
+    color: #e5e5e5 !important;
+    border-color: #ac72e5 !important;
+    animation: none
+}
+.timestudy.lightstudy:hover {
+    background-color: #ac72e5 !important;
+    color: #191919 !important;
+    border-color: #ac72e5 !important
+}
+.timestudybought.lightstudy {
+    background-color: #ac72e5 !important;
+    color: #191919 !important;
+    border-color: #191919 !important
+}
+#tachyonParticleAmount, #dilatedTimeAmount, #dilatedTimePerSecond, #exDilationBenefit {
+    color: #72e572 !important
+}
+#galaxyThreshold, #dilatedGalaxies {
+    color: #0072e5 !important
+}
+#dilationTabbtn button, .dilationbtn, .dilationupg, .dilationupgrebuyable {
+    background-color: transparent !important;
+    color: #e5e5e5 !important;
+    border-color: #72e572 !important;
+    animation: none
+}
+#dilationTabbtn button:hover, .dilationbtn:hover, .dilationupg:hover, .dilationupgrebuyable:hover {
+    background-color: #72e572 !important;
+    color: #191919 !important;
+    animation: none
+}
+#timestudies .dilationupgbought {
+    background-color: #72e572 !important;
+    color: #191919 !important;
+    border-color: #191919 !important
+}
+#blackholediv .eternityupbtn { border: 2px solid #333333 !important }
+#blackholediv .eternityupbtn:hover { background-color: #333333 !important }
+#reversedilation.dilationupg, #xdrow .dilationupgrebuyable { border-color: #16e528 !important }
+#reversedilation.dilationupg:hover, #xdrow .dilationupgrebuyable:hover  { background-color: #16e528 !important }
+#exDilationAmount { color:  #16e528 !important }
+#dilstudy6.dilationupg, #mdtabbtn .secondarytabbtn, #metadimensions .storebtn, #dil14.dilationupg, #dil15.dilationupg, #dil16.dilationupg, #dil17.dilationupg, #masteryportal.dilationupg, #masterystudyunlock button, #masterystudies .dilationupg {
+    border-color: #00e5e5 !important;
+    animation: none
+}
+#dilstudy6.dilationupg:hover, #mdtabbtn .secondarytabbtn:hover, #metadimensions .storebtn:hover, #dil13.dilationupg:hover, #dil14.dilationupg:hover, #dil15.dilationupg:hover, #dil16.dilationupg:hover, #masteryportal.dilationupg:hover, #masterystudyunlock button:hover, #masterystudies .dilationupg:hover {
+    background-color: #00e5e5 !important;
+    animation: none
+}
+#dilstudy6.dilationupgbought, #dil14.dilationupgbought, #dil15.dilationupgbought, #dil16.dilationupgbought, #dil17.dilationupgbought, #masterystudies .dilationupgbought {
+	background-color: #00e5e5 !important;
+    color: #191919 !important;
+	border-color: #191919 !important
+}
+#metaAntimatterAmount, #metaAntimatterPower, #metaAntimatterBest, #metaAntimatterEffect {
+    color: #00e5e5 !important
+}
+#quantum.storebtn, .quantumbtn, #pastquantums, .qMs_locked, .qMs_locked:hover, #dilstudy8.dilationupg, #qctabbtn, #pctabbtn {
+    border-color: #72e500 !important
+}
+#quantum.storebtn:hover, .quantumbtn:hover, #pastquantums:hover, #dilstudy8.dilationupg:hover, #dilstudy8.dilationupgbought, #qctabbtn:hover, #pctabbtn:hover {
+    border-color: #72e500 !important;
+    background-color: #72e500 !important;
+	color: #e5e5e5 !important
+}
+#progressbar.quantumProgress {
+	background-color: #72e500 !important
+}
+.qMs_reward, .qMs_reward:hover {
+    border-color: #72e500 !important;
+    background-color: #72e500 !important;
+	color: #191919 !important
+}
+.qMs_toggle_on {
+	border-color: #72e572 !important;
+	color: #e5e5e5 !important
+}
+.qMs_toggle_on:hover {
+	background-color: #72e572 !important
+}
+.qMs_toggle_off {
+	border-color: #e57272 !important;
+	color: #e5e5e5 !important
+}
+.qMs_toggle_off:hover {
+	background-color: #e57272 !important
+}
+#quarkEnergy, #quarkEnergyMult, #quarkEnergyEffect1, #quarkEnergyEffect2, #bestQE, #enB_glu_amt, #quarkTranslation, #quarkCharge, #quarkChargeRate, .QKAmount,
+#pc_lvl, #pc_eff1, #pc_eff2, #pc_eff3,
+#gatheredQuarks, #normalReplGatherRate, #workerReplGatherRate, #babyReplGatherRate, #growupRate, #gatherRate, .empQuarks, #quarksNanofield, #quarkLoss { color: #72e500 !important }
+.red { color: #e53939 }
+.lime { color: #8fe539 }
+.green { color: #39e539 }
+.blue { color: #3939e5 }
+.gluonupgrade.rg, .gluonupgrade.gb, .gluonupgrade.br {
+	background-color: transparent !important;
+	box-shadow: none !important;
+	color: #e5e5e5 !important
+}
+.gluonupgrade.rg:hover, .gluonupgrade.gb:hover, .gluonupgrade.br:hover {
+	box-shadow: none !important;
+	color: #191919 !important
+}
+.gluonupgradebought.rg, .gluonupgradebought.gb, .gluonupgradebought.br {
+	border: 2px solid #191919 !important;
+	color: #191919 !important
+}
+#dilstudy7.dilationupg, .timestudy.pos_study, #positronstabbtn button, #positrons .gluonupgrade.storebtn { 
+	background-color: transparent !important;
+	border: 2px solid #d2e500 !important;
+	animation: none !important
+}
+#dilstudy7.dilationupg:hover, #dilstudy7.dilationupgbought, .timestudy.pos_study:hover, .timestudybought.pos_study, #positronstabbtn button:hover, #dilstudy7.dilationupgbought, #positrons .gluonupgrade.storebtn:hover { background-color: #d2e500 !important }
+#elc_percentage, #elc_amount, #elc_translation { color: #d2e500 !important }
+#elc_effect { color: #00e500 !important }
+.quantumchallengediv {
+    background-color: transparent !important;
+    font-family:'Inconsolata', monospace !important;
+    border-color: #009900 !important;
+    border-radius: 0px !important
+}
+
+#stringstabbtn button {
+	background: linear-gradient(black, transparent, black), linear-gradient(#1f3f00, transparent, #1f3f00), linear-gradient(30deg, #3f7f00, transparent, #5f7f00), linear-gradient(#7fff00, #bfff00);
+	color: #efffbf !important;
+    border-color: #bfff7f !important;
+	animation: str 5s linear infinite
+}
+#stringstabbtn button:hover {
+	box-shadow: 0px 0px 12px inset #7fff00;
+	color: #7fff00 !important
+}
+.ve {
+	color: #bfff00;
+	text-shadow: 0px 0px 3px #bfff00, 0px 0px 6px #7fff00
+}
+
+#fdtabbtn button {
+    border-color: #ff3f00 !important
+}
+#fdtabbtn button:hover {
+    border-color: #ff3f00 !important;
+    background-color: #ff3f00 !important;
+	color: #e5e5e5 !important
+}
+.flucEne {
+	color: #ff3f00 !important
+}
+.fluctuatebtn {
+	border-color: #bf005f !important
+}
+.fluctuatebtn:hover {
+	border-color: #ff7fdf !important
+}
+
+#dilstudy14.dilationupg, .gluonupgrade.bigrip {
+	border: 1px solid #5be567 !important;
+	color: #e5e5e5 !important;
+	box-shadow: none !important
+}
+.bigripbtn, .quickBigRip {
+	background-color: transparent !important;
+	border: 3px solid #5be567 !important;
+	color: #e5e5e5 !important;
+	box-shadow: none !important
+}
+#dilstudy14.dilationupg:hover, #dilstudy14.dilationupgbought, .bigripbtn:hover, .quickBigRip:hover, .gluonupgrade.bigrip:hover, .gluonupgradebought.bigrip {
+	background-color: #5be567 !important;
+	color: #191919 !important;
+	box-shadow: none !important
+}
+#dilstudy14.dilationupgbought, .gluonupgradebought.bigrip, .gluonupgradebought.bigripoff {
+	border: 1px solid #191919 !important
+}
+.gluonupgradebought.bigripoff {
+	border: 1px solid #999999 !important;
+	box-shadow: none !important
+}
+.SSAmount {
+	color: #5be567 !important
+}
+.ghostifybtn, .brCompleted {
+	border-radius: 0px;
+	border-color: transparent !important
+}
+.ghostifybtn:hover {
+	border-color: rgba(255,255,255,0.5) !important
+}
+#GHPAmount, #quantumedBMAmount {
+	animation: ghostifytext 4s linear infinite
+}
+.aarexmodsghostifybtn {
+	background: linear-gradient(#0c0033, #2e0033);
+	border: 2px solid;
+	box-shadow: inset 0px 0px 24px 0px black;
+	font-weight: bold;
+	transition-duration: 0.2s;
+	animation: ghostifytext 4s linear infinite
+}
+.aarexmodsghostifybtn:hover {
+	background: linear-gradient(#0c0033, #2e0033);
+	box-shadow: inset 0px 0px 12px 0px #420072
+}
+#bugExport b, .warning {
+	color: #e50000
+}
+.neutrinos {
+	color: #5f5f5f
+}
+.gluonupgrade.neutrinoupg {
+	border-color: #cccccc !important;
+	box-shadow: none;
+	text-shadow: none;
+}
+.gluonupgrade.neutrinoupg:hover {
+	background-color: #cccccc !important;
+	border-color: #cccccc !important
+}
+.gluonupgradebought.neutrinoupg {
+	background-color: #cccccc !important;
+	border-color: #191919 !important;
+	color: #191919 !important;
+	box-shadow: none;
+	text-shadow: none;
+}
+#gphtabbtn button {
+	background-color: transparent !important;
+    border-color: #bfaf5f !important;
+	color: #e5e5e5 !important
+}
+#gphtabbtn button:hover {
+	background-color: #bfaf5f !important;
+	color: #191919 !important
+}
+.gluonupgrade.gph {
+	border-color: #bfaf5f !important;
+	color: #191919 !important;
+	text-shadow: 0px 0px 3px #191919, 0px 0px 6px #bfaf5f
+}
+.gluonupgrade.gph:hover {
+	color: #e5e5e5 !important;
+	text-shadow: 0px 0px 3px #e5e5e5, 0px 0px 6px #191919;
+}
+.gphAmount {
+	color: #bfaf5f
+}
+.ghr {
+	color: #ccc8b7
+}
+.orange {
+	color: #e57200
+}
+.yellow, #enB_pos_eng, #enB_pos_amt {
+	color: #e5e500
+}
+.indigo {
+	color: #3900e5
+}
+.violet {
+	color: #7200e5
+}
+.uv {
+	color: #ac00e5
+}
+#bltabbtn button, .gluonupgrade.bl {
+	background: repeating-linear-gradient(#620d65, transparent 50%, #620d65 100%), repeating-linear-gradient(90deg, transparent, #c73415 50%, transparent 100%), #191919 !important;
+	background-size: 200% 200% !important;
+	border: 2px solid transparent !important;
+	color: #e5e5e5 !important;
+	text-shadow: 0px 0px 3px #191919, 0px 0px 6px #e5e5e5;
+	animation: bl 5s linear infinite
+}
+#bltabbtn button:hover, .gluonupgrade.bl:hover {
+	box-shadow: inset 0px 0px 24px #38cbea;
+	border-color: #38cbea !important
+}
+#bWatt, #bSpeed, #bTotalSpeed, #bAM, #bAMProduction, #bAMEffect, #bBt, #bBtProduction, #odSpeed, #zb, #zbSpeed {
+	color: #c73415
+}
+.chosenbtn {
+    border-color: #191919 !important;
+    background-color: #00e500 !important;
+    color: #191919 !important;
+    border-radius: 0px !important
+}
+.chosenbtn2 {
+    border-color: #007200 !important;
+    background-color: #72e572 !important;
+    color: #191919 !important;
+    border-radius: 0px !important
+}
+.bRune {
+	background: #e5e5e5;
+	box-shadow: 0px 0px 12px #e5e5e5
+}
+.bRune.Infinity {
+	background: #e2bd00;
+	box-shadow: 0px 0px 12px #e2bd00
+}
+.bRune.Eternity {
+	background: #7100e2;
+	box-shadow: 0px 0px 12px #7100e2
+}
+.bRune.Quantum {
+	background: #009900;
+	box-shadow: 0px 0px 12px #009900
+}
+.bRune.Ethereal {
+	box-shadow: 0px 0px 12px #3964e5
+}
+.gluonupgradebought.bl {
+	background: repeating-linear-gradient(#9df29a, transparent 50%, #9df29a 100%), repeating-linear-gradient(90deg, transparent, #38cbea 50%, transparent 100%), #191919 !important;
+	background-size: 200% 200% !important;
+	border: 1px solid transparent !important;
+	color: #191919 !important;
+	text-shadow: 0px 0px 3px #191919, 0px 0px 6px #e5e5e5;
+}
+#ap, #apProduction, #apLoss {
+	color: #e55be5 !important
+}
+#wpb, #wbTime, #wbOscillate, #wbProduction {
+	color: #7b267e;
+}
+#wnb {
+	color: #9df29a
+}
+.zero {
+	background: repeating-linear-gradient(#620d65, transparent 50%, #620d65 100%), repeating-linear-gradient(90deg, transparent, #9df29a 50%, transparent 100%), #191919;
+	background-size: 200% 200%;
+	box-shadow: 0px 0px 12px #e5e5e5
+}
+.down #wQkSymbol {
+	transform: translate(-50%, 15%)
+}
+.mu #zNeSymbol {
+	transform: translate(-50%, 10%)
+}
+.tau #zNeSymbol {
+	transform: translate(-50%, 10%)
+}
+
+.notifyjs-bootstrap-info {
+    background-color: #0072e5;
+    font-family:'Inconsolata', monospace;
+    border: 2px #004C99 solid;
+    border-radius: 0px
+}
+.notifyjs-bootstrap-success {
+    background-color: #00e500;
+    font-family:'Inconsolata', monospace;
+    border: 2px #009900 solid;
+    border-radius: 0px
+}
+.notifyjs-bootstrap-warn {
+    background-color: #e5e500;
+    font-family:'Inconsolata', monospace;
+    border: 2px #999900 solid;
+    border-radius: 0px
+}
+.notifyjs-bootstrap-error {
+    background-color: #e50000;
+    font-family:'Inconsolata', monospace;
+    border: 2px #990000 solid;
+    border-radius: 0px
+}
+
+@keyframes rg {
+	0% {color: #e50000}
+	25% {color: #e5e500}
+	50% {color: #00e500}
+	75% {color: #e5e500}
+	100% {color: #e50000}
+}
+@keyframes gb {
+	0% {color: #00e500}
+	25% {color: #00e5e5}
+	50% {color: #0000e5}
+	75% {color: #00e5e5}
+	100% {color: #00e500}
+}
+@keyframes br {
+	0% {color: #0000e5}
+	25% {color: #e500e5}
+	50% {color: #e50000}
+	75% {color: #e500e5}
+	100% {color: #0000e5}
+}
+@keyframes rgupg {
+	0% {border: 2px solid #e50000}
+	25% {border: 2px solid #e5e500}
+	50% {border: 2px solid #00e500}
+	75% {border: 2px solid #e5e500}
+	100% {border: 2px solid #e50000}
+}
+@keyframes gbupg {
+	0% {border: 2px solid #00e500}
+	25% {border: 2px solid #00e5e5}
+	50% {border: 2px solid #0000e5}
+	75% {border: 2px solid #00e5e5}
+	100% {border: 2px solid #00e500}
+}
+@keyframes brupg {
+	0% {border: 2px solid #0000e5}
+	25% {border: 2px solid #e500e5}
+	50% {border: 2px solid #e50000}
+	75% {border: 2px solid #e500e5}
+	100% {border: 2px solid #0000e5}
+}
+@keyframes rgupghover {
+	0% {background-color: #e50000; border: 2px solid #e50000}
+	25% {background-color: #e5e500; border: 2px solid #e5e500}
+	50% {background-color: #00e500; border: 2px solid #00e500}
+	75% {background-color: #e5e500; border: 2px solid #e5e500}
+	100% {background-color: #e50000; border: 2px solid #e50000}
+}
+@keyframes gbupghover {
+	0% {background-color: #00e500; border: 2px solid #00e500}
+	25% {background-color: #00e5e5; border: 2px solid #00e5e5}
+	50% {background-color: #0000e5; border: 2px solid #0000e5}
+	75% {background-color: #00e5e5; border: 2px solid #00e5e5}
+	100% {background-color: #00e500; border: 2px solid #00e500}
+}
+@keyframes brupghover {
+	0% {background-color: #0000e5; border: 2px solid #0000e5}
+	25% {background-color: #e500e5; border: 2px solid #e500e5}
+	50% {background-color: #e50000; border: 2px solid #e50000}
+	75% {background-color: #e500e5; border: 2px solid #e500e5}
+	100% {background-color: #0000e5; border: 2px solid #0000e5}
+}

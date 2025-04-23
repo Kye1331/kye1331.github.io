@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>yes® game</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="viewport" content="minimal-ui width=device-width,initial-scale=1,user-scalable=no">
+		<meta property="og:image" content="/assets/images/yes-open-graph.jpg" />
+		<link id="favicon" rel="icon" type="image/png" href="/favicon.png">
+	</head>
+
+	<body>
+
+		<div id="loading" class="loading fill">
+			<img src="assets/imgs/loading.gif">
+		</div>
+
+		<div id="main" class="container fill">
+
+			<div id="start-game" class="start-game">
+				<img src="assets/imgs/start-button.png">
+				<br>
+				<img class="tag" src="assets/imgs/start-screen-tag.png">
+			</div>
+
+			<div id="portrait" class="portrait">
+				<img src="assets/imgs/rotate-screen.png">
+			</div>
+
+		</div>
+
+	</body>
+
+	<script type="text/javascript">
+
+		// set these variables to customize the game
+
+		var BACKGROUND_COLOR = '#ffffff';
+		var LINK_OUT; // default = https://yes.com
+		var SHARE_URL; // default = https://yes.com
+		var SHARE_TITLE; // default = 'Play the yes® game.'
+		var LOGO_URL = 'assets/imgs/bpce-logo.png'; // 526px x 100px
+
+		loading.style.background = BACKGROUND_COLOR;
+		document.body.style.background = BACKGROUND_COLOR;
+	</script>
+
+	<script type="text/javascript" src="js/main.js"></script>
+
+</html>

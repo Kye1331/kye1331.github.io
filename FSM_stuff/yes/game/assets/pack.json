@@ -1,0 +1,319 @@
+ {
+    "sprites": [
+       
+        {
+            "type": "atlasJSONHash",
+            "key": "spritesheet",
+            "textureURL": "assets/imgs/spritesheet-0.png",
+            "atlasURL": "assets/imgs/spritesheet-0.json",
+            "atlasData": null
+        },
+
+        {
+            "type": "atlasJSONHash",
+            "key": "spritesheet-1",
+            "textureURL": "assets/imgs/spritesheet-1.png",
+            "atlasURL": "assets/imgs/spritesheet-1.json",
+            "atlasData": null
+        },
+
+        {
+            "type": "image",
+            "key": "level-image",
+            "url": "assets/imgs/background/level-image-crop-resize.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "control-image",
+            "url": "assets/imgs/controls.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "country-dropdown-level-image",
+            "url": "assets/imgs/background/level-image-country-dropdown-crop-resize.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "country-billing-dropdown-level-image",
+            "url": "assets/imgs/background/country-billing-dropdown-level-image-crop-resize.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "payment-dropdown-level-image",
+            "url": "assets/imgs/background/payment-dropdown-level-image-crop-resize.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "id-type-dropdown-level-image",
+            "url": "assets/imgs/background/id-type-dropdown-level-image-crop-resize.png",
+            "overwrite": false
+        },
+
+        {
+            "type": "image",
+            "key": "terms",
+            "url": "assets/imgs/background/terms-resize.png",
+            "overwrite": false
+        },
+
+
+        {
+            "type": "image",
+            "key": "privacy",
+            "url": "assets/imgs/background/privacy-resize.png",
+            "overwrite": false
+        },
+
+
+        {
+            "type": "image",
+            "key": "credit",
+            "url": "assets/imgs/background/credit-resize.png",
+            "overwrite": false
+        },
+
+
+        {
+            "type": "audio",
+            "key": "maxo",
+            "urls": ["assets/audio/sg-timeispend.mp3", "assets/audio/sg-timeispend.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "ohya",
+            "urls": ["assets/audio/yello-loop-sg.mp3", "assets/audio/yello-loop-sg.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "jump",
+            "urls": ["assets/audio/nc-jump.mp3", "assets/audio/nc-jump.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "death",
+            "urls": ["assets/audio/nc-death.mp3", "assets/audio/nc-death.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "explosion",
+            "urls": ["assets/audio/nc-explosion.mp3", "assets/audio/nc-explosion.ogg"],
+            "autoDecode": true
+        },
+
+
+        {
+            "type": "audio",
+            "key": "type1",
+            "urls": ["assets/audio/typing/type1.mp3", "assets/audio/typing/type1.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type2",
+            "urls": ["assets/audio/typing/type2.mp3", "assets/audio/typing/type2.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type3",
+            "urls": ["assets/audio/typing/type3.mp3", "assets/audio/typing/type3.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type4",
+            "urls": ["assets/audio/typing/type4.mp3", "assets/audio/typing/type4.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type5",
+            "urls": ["assets/audio/typing/type5.mp3", "assets/audio/typing/type5.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type6",
+            "urls": ["assets/audio/typing/type6.mp3", "assets/audio/typing/type6.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type7",
+            "urls": ["assets/audio/typing/type7.mp3", "assets/audio/typing/type7.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type8",
+            "urls": ["assets/audio/typing/type8.mp3", "assets/audio/typing/type8.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type9",
+            "urls": ["assets/audio/typing/type9.mp3", "assets/audio/typing/type9.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type10",
+            "urls": ["assets/audio/typing/type10.mp3", "assets/audio/typing/type10.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type11",
+            "urls": ["assets/audio/typing/type11.mp3", "assets/audio/typing/type11.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type12",
+            "urls": ["assets/audio/typing/type12.mp3", "assets/audio/typing/type12.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type13",
+            "urls": ["assets/audio/typing/type13.mp3", "assets/audio/typing/type13.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type14",
+            "urls": ["assets/audio/typing/type14.mp3", "assets/audio/typing/type14.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type15",
+            "urls": ["assets/audio/typing/type15.mp3", "assets/audio/typing/type15.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type16",
+            "urls": ["assets/audio/typing/type16.mp3", "assets/audio/typing/type16.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type17",
+            "urls": ["assets/audio/typing/type17.mp3", "assets/audio/typing/type17.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type18",
+            "urls": ["assets/audio/typing/type18.mp3", "assets/audio/typing/type18.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type19",
+            "urls": ["assets/audio/typing/type19.mp3", "assets/audio/typing/type19.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "type20",
+            "urls": ["assets/audio/typing/type20.mp3", "assets/audio/typing/type20.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "tone1",
+            "urls": ["assets/audio/typing/tone1.mp3", "assets/audio/typing/tone1.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "tone2",
+            "urls": ["assets/audio/typing/tone2.mp3", "assets/audio/typing/tone2.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "tone3",
+            "urls": ["assets/audio/typing/tone3.mp3", "assets/audio/typing/tone3.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "tone4",
+            "urls": ["assets/audio/typing/tone4.mp3", "assets/audio/typing/tone4.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "ding",
+            "urls": ["assets/audio/typing/DING.mp3", "assets/audio/typing/DING.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "return",
+            "urls": ["assets/audio/typing/return.mp3", "assets/audio/typing/return.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "suck-down",
+            "urls": ["assets/audio/suck-down.mp3", "assets/audio/suck-down.ogg"],
+            "autoDecode": true
+        },
+
+        {
+            "type": "audio",
+            "key": "suck-up",
+            "urls": ["assets/audio/suck-up.mp3", "assets/audio/suck-up.ogg"],
+            "autoDecode": true
+        }
+
+    ]
+}
