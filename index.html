@@ -1,0 +1,306 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7912153832867856"
+     crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="aquahoshino45510">
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/600x315/75/33/eb/7533eb17212ce66e206aca54f9760370.jpg">
+    <title>Sigma Games</title>
+     <script src="https://unpkg.com/@ungap/custom-elements-builtin"></script>
+  <script type="module" src="https://unpkg.com/x-frame-bypass"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+           
+      div{
+
+        align-items: center;
+        display:flex;
+        position: relative;
+
+      }
+            canvas {
+            
+    position: fixed;  /* Ensures the canvas fills the screen */
+    top: 0;
+    left: 0;
+    width: 100vw;     /* Full viewport width */
+    height: 100vh;    /* Full viewport height */  /* Keeps canvas in the background */
+    pointer-events: none;  /* Prevents accidental interactions */
+
+
+            z-index : -1;
+            display: block;
+            position: fixed;
+
+            background: #040440; /* Ensures canvas always has dark purple background */
+           }
+            body {
+            margin: 0;
+            font-family: "Google Sans", Arial, sans-serif;
+            
+            background-color: #1e1e1e;
+            color: #dcdcdc;
+            background-image: url('https://img.freepik.com/free-vector/hand-painted-galaxy-background_23-2148965762.jpg?semt=ais_hybrid');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+
+        h1 {
+          text-transform: uppercase;
+            font-size:100px;
+            text-shadow: 0 0 15px;
+            text-align: center;
+            color: #d5d5d5;
+            margin-top: 20px;
+            opacity: 0.7;
+        }
+
+
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+        }
+
+
+        .button-17 {
+            font-family: "Google sans";
+            text-shadow: 0 0 15px;
+
+            align-items: center;
+            appearance: none;
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 18px;
+            color: #dcdcdc;
+            border:none;
+            cursor: pointer;
+            display: inline-flex;
+            font-size: 14px;
+            font-weight: 500;
+            height: 48px;
+            justify-content: center;
+            padding: 0 24px;
+            text-transform: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(7, 155, 241, 0.5);
+            opacity: 0.7;
+        }
+
+
+        .button-17:hover {
+            text-shadow:1px 1px 2px #4285f4;
+            font-size: 18px;
+            color: #00fff2;
+            box-shadow: 0 4px 10px rgba(246, 235, 245, 0.5);
+        }
+
+
+        .button-17:focus {
+            outline: 2px solid #4285f4;
+        }
+
+
+        input {
+          margin-right: 0;
+             margin: 0 auto;
+            padding: 10px;
+            border: 1px solid #555;
+            border-radius: 5px;
+            background-color: #2a2a2a;
+            color: #dcdcdc;
+            font-size: 16px;
+            width: 300px;
+            text-align: center;
+            opacity: 0.7;
+        }
+
+
+        a {
+            display: block;
+            text-align: center;
+            margin: 20px;
+            color: #4285f4;
+            text-decoration: none;
+            font-weight: bold;
+            opacity:0.7;
+        }
+
+
+        a:hover {
+            text-decoration: underline;
+            transition: all 0.3s ease;
+        }
+
+
+        footer {
+            background-color: #111;
+            color: #dcdcdc;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 20px;
+            }
+
+
+            .button-17 {
+                width: 100%;
+                max-width: 300px;
+                font-size: 12px;
+            }
+
+
+            input {
+                width: 90%;
+            }
+            .settings-bar {
+    position: fixed;      /* Fixes it in place */
+    bottom: 20px;         /* Positioned near the bottom */
+    right: 20px;          /* Positioned near the right edge */
+    z-index: 10;          /* Ensures it's above other elements */
+}
+
+.settings-bar .button-17 {
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.settings-bar .button-17:hover {
+    background: #4285f4;
+    color: #fff;
+    opacity: 1;
+}
+
+        }
+    </style>
+    <script>
+    async function getCode(url) {
+    try {
+        const result = await fetch("https://codebreaker-dun.vercel.app/api/server?code="+url);
+        const data = await result.text();
+        alert(data);  // Display the result in an alert
+    } catch (error) {
+        console.error("Error fetching data:", error);
+        alert("Failed to fetch data.");
+    }
+}
+      let mode = "plopup"
+      
+        function openUrl(url) {
+            if(url.length == 2 || url.length == 3){
+                getCode(url)
+                return
+            }
+          if (!url.startsWith("https://") && !url.startsWith("http://")) {
+                url = "http://kyeeldergroebe.us" +"/"+ url;
+            }
+           
+   					let win = window.location.replace(url);
+
+             
+        }
+        function RopenUrl(url) {
+           if (prompt("Are you sure you want to proceed? This could be devestating... (Reply 'Y' to proceed)").toLowerCase() === "y"){
+           open("https://cornhub.website");
+           }          
+        }
+
+
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const inputField = document.getElementById("sigma");
+            inputField.addEventListener("keydown", function (event) {
+                if (event.key === "Enter") {
+                    openUrl(inputField.value);
+                }
+                
+            });
+            document.addEventListener("keydown", function(event){
+              if (event.key === "p") {
+                  mode = "gay";
+                }
+            })
+        });
+        
+    </script>
+</head>
+    <h1>Sigma Games</h1>
+    <div class="buttons">
+        <button class="button-17" onclick="openUrl('FSM_stuff/FNAF1-main')">FNAF 1</button>
+        <button class="button-17" onclick="openUrl('gunmayhem.html')"> Gun mayhem</button>
+        <button class="button-17" onclick="openUrl('FSM_stuff/Cookie')"> Cookie Clicker</button>
+        <button class="button-17" onclick="openUrl('FSM_stuff/1v1LOL')">1v1.lol</button>
+    </div>
+    <div class="buttons">
+        <button class="button-17" onclick="openUrl('tboi')">Binding of isaac</button>
+        <button class="button-17" onclick="openUrl('FSM_stuff/CrossyRoad')"> Crossy road</button>
+        <button class="button-17" onclick="openUrl('FSM_stuff/Cookie')"> Cookie Clicker</button>
+        <button class="button-17" onclick="openUrl('FSM_stuff/RooftopSnipers')"> Rooftop snipers</button>
+    </div>
+    <br>
+    <div class="buttons">
+        <button class="button-17" onclick="openUrl('retrogames.cc/embed/19495-metroid-fusion-j-polla.html')">Metroid Fusion</button>
+        <button class="button-17" onclick="openUrl('demo.emulatorjs.org')">Emulator Js (download from romsgames.net)</button>
+        <button class="button-17" onclick="openUrl('eaglercraft')">Eaglercraft</button>
+    </div>
+        <br>
+    <div class="buttons">
+        <button class="button-17" onclick="openUrl('FSM_stuff/FruitNinja')">Fruit Ninja</button>
+        <button class="button-17" onclick="openUrl('FSM_stuff/retrobowl')"> Retro Bowl </button>
+        <button class="button-17" onclick="openUrl('FSM_stuff/Subway')">Subway Surfers (download from romsgames.net)</button>
+        <button class="button-17" onclick="openUrl('FSM_stuff/SM64')">Super mario 64</button>
+    </div>
+        <br>
+    <div class="buttons">
+        <button class="button-17" onclick="openUrl('drivemad')">Drive Mad (for lukas)</button>
+        <button class="button-17" onclick="openUrl('FSM_stuff/JetpackJoyride')"> Jetpack Joyride </button>
+        <button class="button-17" onclick="openUrl('FSM_stuff/2048')">2048 (download from romsgames.net)</button>
+        <button class="button-17" onclick="openUrl('FSM_stuff/CutTheRope')">Cut the rope</button>
+    </div>
+    <div style="display: flex; justify-content: center; position: relative;">
+      <div style="position: relative;">
+          <input id="sigma" 
+                 placeholder="Enter URL here..." 
+                 style="width: 300px; text-align: center; display: block; margin: 0 auto;" /> 
+          <button class="button-17" 
+                  onclick="openUrl(document.getElementById('sigma').value)" 
+                  style="fonst-size:300px; position: absolute; right: -70px; top: 50%; transform: translateY(-50%);">
+                  →
+          </button>
+      </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+      
+    <a href="https://github.com/Kye1331/Game-Stuff/archive/refs/tags/SigmaGames2.0.zip">Download this website as an HTML file</a>
+    <div class="settings-bar">
+      <button class="button-17"><img width="30" height="30"src="https://cdn-icons-png.flaticon.com/512/3524/3524659.png"></button>
+  </div>
+    <footer>&copy; 2025 Sigma Games All Rights Reserved.</footer>
+    <canvas id="particlesCanvas"></canvas>
+    <script src="index.js"></script>
+</body>
+</html>
