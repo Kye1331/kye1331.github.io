@@ -194,13 +194,7 @@
         }
     </style>
     <script>
-        if (!localStorage.getItem('hasVisited')) {
-    // If not, show the alert
-    alert("Apologies to those who have experienced the \"Christmas Update\". This was an \n unfortunate oversight on my end by sharing this project with some trollers. The website should be restored back to normal :) - me"");
 
-    // Mark that the user has visited
-    localStorage.setItem('hasVisited', 'true');
-}
     async function getCode(url) {
     try {
         const result = await fetch("https://codebreaker-dun.vercel.app/api/server?code="+url);
