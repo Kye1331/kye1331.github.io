@@ -1,6 +1,7 @@
 if (!localStorage.getItem('hasVisited')) {
-alert("Apologies to those who have experienced the 'Christmas Update'. \n This was an unfortunate oversight on my end by sharing this project with some trollers. The website should be restored back to normal :) - me"");
+alert("Apologies to those who have experienced the 'Christmas Update'.  This was an unfortunate oversight on my end by sharing this project with some trollers. The website should be restored back to normal :) - me");
 localStorage.setItem('hasVisited', 'true');
+
 }
 const canvas = document.getElementById("particlesCanvas");
 const ctx = canvas.getContext("2d");
