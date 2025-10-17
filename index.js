@@ -1,6 +1,6 @@
-if (!localStorage.getItem('hasVisited')) {
-alert("Apologies to those who have experienced the 'Christmas Update'.  This was an unfortunate oversight on my end by sharing this project with some trollers. The website should be restored back to normal :) - me");
-localStorage.setItem('hasVisited', 'true');
+if (!localStorage.getItem('hasVisited2')) {
+alert("Hollow knight is back up");
+localStorage.setItem('hasVisited2', 'true');
 
 }
 const canvas = document.getElementById("particlesCanvas");
