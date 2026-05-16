@@ -213,7 +213,7 @@
                 return
             }
           if (!url.startsWith("https://") && !url.startsWith("http://")) {
-                url = "http://kye1331.github.io" +"/"+ url;
+                window.location.replace("http://kye1331.github.io" +"/"+ url)
             }
            
    					let win = window.location.replace(url);
